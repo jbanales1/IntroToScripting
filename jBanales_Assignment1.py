@@ -1,3 +1,5 @@
+#Jesus Banales - COSC 2348
+
 """
 Part 1: Prints out name, address, telephone number, and college major
 """
