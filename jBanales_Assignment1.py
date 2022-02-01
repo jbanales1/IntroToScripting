@@ -123,14 +123,18 @@ Part 8: Displays amount of money Joe paid for stocks, commission paid to his bro
 for which Joe sold the stock, another commission payment, and different from selling the stock and commission payment.
 """
 
+#Calculating stock payment and first commission of 3%
 stockPayment = float(2000*40)
 firstCommission = 0.03*stockPayment;
 
+#Calculating stock sell and second commission of 3%
 stockSell = float(2000*42.75)
 secondCommission = 0.03*stockSell
 
+#Calculating profit by subtracting paid price from sale
 moneyLeft = stockSell - (stockPayment + firstCommission + secondCommission)
 
+#Printing out calculated values and using if statement to see if Joe made profit
 print("Joe paid $", stockPayment, " for 40 shares in Acme")
 print("Joe paid his broker 3% commission which is ", firstCommission)
 print("Joe sold all his shares for $", stockSell)
