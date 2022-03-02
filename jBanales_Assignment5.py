@@ -344,7 +344,7 @@ def partFive():
     #print the new string
     print(copyFour)
 
-#Main function calls functions for parts 1-4    
+#Main function calls functions for parts 1-5
 if __name__ == '__main__':
     partOne()
     partTwo()
