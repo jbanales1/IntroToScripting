@@ -1,5 +1,5 @@
 #!/bin/bash
-<<com
+
 #Questions 1 - Prints 1-15 in three different ways, using while, until and for loop
 
 i=1
@@ -120,8 +120,9 @@ do
 		echo $i
 	fi
 done
-com
-#Question 4 - 
+
+#Question 4 - Using select loop to let user decide between Cropus, Kingsville, Commerce or Exit
+#Different output depending on input, if none of the above output Texas A&M University
 
 select CITY in Corpus Kingsville Commerce Exit
 do
@@ -139,9 +140,10 @@ do
 	esac
 done
 
-#Bonus - Fixing code
+#Bonus - Fixing code, just added some brackets
 
 var_test=30
+echo Variable is $var_test
 
 if [[ $var_test=>1 && $var_test<=10 ]]
 then
